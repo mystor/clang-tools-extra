@@ -12,6 +12,7 @@ target_link_libraries(clang-tidy
   clangTidy
   clangTidyGoogleModule
   clangTidyLLVMModule
+  clangTidyMozillaModule
   clangTidyMiscModule
   clangTidyReadabilityModule
   clangTooling

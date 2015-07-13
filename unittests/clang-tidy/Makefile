@@ -15,6 +15,7 @@ LINK_COMPONENTS := asmparser bitreader support MC MCParser option \
 		 TransformUtils
 USEDLIBS = clangTidy.a clangTidyLLVMModule.a clangTidyGoogleModule.a \
 	   clangTidyMiscModule.a clangTidyReadability.a clangTidy.a \
+	   clangTidyMozillaModule.a \
 	   clangTidyUtils.a \
 	   clangStaticAnalyzerFrontend.a clangStaticAnalyzerCheckers.a \
 	   clangStaticAnalyzerCore.a \

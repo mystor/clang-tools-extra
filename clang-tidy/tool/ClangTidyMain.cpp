@@ -350,6 +350,10 @@ static int MiscModuleAnchorDestination = MiscModuleAnchorSource;
 extern volatile int ReadabilityModuleAnchorSource;
 static int ReadabilityModuleAnchorDestination = ReadabilityModuleAnchorSource;
 
+// This anchor is used to force the linker to link the MozillaModule.
+extern volatile int MozillaModuleAnchorSource;
+static int MozillaModuleAnchorDestination = MozillaModuleAnchorSource;
+
 } // namespace tidy
 } // namespace clang
 
